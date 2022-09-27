@@ -1,0 +1,24 @@
+.c-button {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 130px;
+	padding: 12px 20px;
+	font-size: rem(21px);
+	font-weight: $font-weight-medium;
+	line-height: 1.3;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: get-color(brand, gray);
+	border: 1px solid get-color(brand, gray);
+	&:hover,
+	&:focus {
+		color: get-color(brand, gray);
+		background-color: transparent;
+		border: 1px solid get-color(brand, gray);
+	}
+}

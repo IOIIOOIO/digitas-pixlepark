@@ -1,0 +1,21 @@
+.c-input {
+	position: relative;
+	width: 100%;
+	padding-top: 0;
+	padding-right: $spacer-6;
+	padding-bottom: 0;
+	padding-left: $spacer-6;
+	overflow: hidden;
+	line-height: 44px;
+	background-color: #ffffff;
+	border: none;
+	font-size: rem(16px);
+	transition: 0.5s all ease;
+	box-shadow: 6px 8px 14px rgba(88, 89, 91, 0.15);
+	&:focus {
+		outline: none;
+	}
+	&::placeholder {
+		color: get-color(brand, gray-dark);
+	}
+}

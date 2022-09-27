@@ -1,0 +1,61 @@
+// ---- bootstrap overrides ----
+
+
+// Reboot
+:root {
+  --headings-margin-bottom: 25px;
+  --paragraph-margin-bottom: 20px;
+	--headings-font-family: 'Barlow';
+	--font-family-base: 'Barlow';
+	--subheadings-font-family: 'Barlow';
+}
+
+$link-decoration: none;
+$link-hover-decoration: none;
+$body-bg: #ffffff;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base: var(--font-family-base), $font-family-sans-serif;
+$headings-font-family: var(--headings-font-family), $font-family-sans-serif;
+$subheadings-font-family: var(--subheadings-font-family), $font-family-sans-serif;
+
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semi-bold:       600;
+$font-weight-bold:            700;
+$font-weight-base:            $font-weight-normal;
+$headings-font-weight:        $font-weight-medium;
+
+$body-color: #333333;
+$headings-color: #003770;
+
+$line-height-base: 1.3;
+$headings-line-height: 1.2;
+$headings-margin-bottom:  25px;
+$paragraph-margin-bottom: 20px;
+
+// spacers
+$spacers: ();
+$spacers: map-merge((
+	0: 0,
+	1: 2px,
+	2: 4px,
+	3: 8px,
+	4: 10px,
+	5: 15px,
+	6: 20px,
+	7: 25px,
+	8: 30px,
+	9: 35px,
+	10: 40px,
+	11: 45px,
+	12: 50px,
+	13: 60px,
+	14: 70px,
+	15: 80px,
+	16: 90px,
+	17: 100px,
+), $spacers);
+
+
+

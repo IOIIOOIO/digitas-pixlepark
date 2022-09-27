@@ -1,0 +1,13 @@
+@mixin line-clamp($lines, $is_imp: false) {
+  @if $is_imp == false {
+	display: -webkit-box;
+	-webkit-line-clamp: $lines;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+  } @else {
+	display: -webkit-box !important;
+	-webkit-line-clamp: $lines !important;
+	-webkit-box-orient: vertical !important;
+	overflow: hidden !important;
+  }
+}

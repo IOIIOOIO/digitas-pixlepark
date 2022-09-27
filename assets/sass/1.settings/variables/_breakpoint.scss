@@ -1,0 +1,10 @@
+$screen-xs: map-get($grid-breakpoints, xs);
+$screen-sm: map-get($grid-breakpoints, sm);
+$screen-md: map-get($grid-breakpoints, md);
+$screen-lg: map-get($grid-breakpoints, lg);
+$screen-xl: map-get($grid-breakpoints, xl);
+
+$screen-sm-up: "screen and (min-width: #{$screen-sm})";
+$screen-md-up: "screen and (min-width: #{$screen-md})";
+$screen-lg-up: "screen and (min-width: #{$screen-lg})";
+$screen-xl-up: "screen and (min-width: #{$screen-xl})";

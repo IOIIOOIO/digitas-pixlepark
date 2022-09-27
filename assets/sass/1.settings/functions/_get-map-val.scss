@@ -1,0 +1,29 @@
+@function get-map-val($var, $keys...) {
+
+    @each $key in $keys {
+      @if map-has-key($var, $key) {
+        $var: map-get($var, $key);
+      }
+      @else {
+        @warn "#{$key} not found.";
+      }
+    }
+    @return $var;
+}
+
+
+// Sugar functions
+@function get-color($color, $tone: false) {
+  @return get-map-val($colors, $color, $tone)
+}
+
+
+@function get-duration($duration) {
+  @return get-map-val($durations, $duration)
+}
+
+@function get-easing($easing) {
+  @return get-map-val($easings, $easing)
+}
+
+

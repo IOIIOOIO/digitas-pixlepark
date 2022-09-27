@@ -1,0 +1,108 @@
+// sizing
+.u-body-small {
+	font-size: rem(14px) !important;
+}
+
+.u-body-medium {
+	font-size: rem(18px) !important;
+}
+
+.u-body-large {
+	font-size: rem(20px) !important;
+	@media #{$screen-md-up} {
+		font-size: rem(24px) !important;
+	}
+}
+
+.u-body-xlarge {
+	font-size: rem(24px) !important;
+	@media #{$screen-md-up} {
+		font-size: rem(28px) !important;
+	}
+}
+
+.u-heading-medium {
+	font-size: rem(24px);
+	@media #{$screen-md-up} {
+		font-size: rem(30px);
+	}
+}
+
+.u-heading-large {
+	font-size: rem(28px);
+	@media #{$screen-md-up} {
+		font-size: rem(40px);
+	}
+}
+
+.u-heading-xlarge {
+	font-size: rem(32px);
+	@media #{$screen-md-up} {
+		font-size: rem(46px);
+	}
+}
+
+// weight
+
+.u-text-light {
+	font-weight: $font-weight-light !important;
+}
+
+.u-text-medium {
+	font-weight: $font-weight-medium !important;
+}
+
+.u-text-normal {
+	font-weight: $font-weight-normal !important;
+}
+
+.u-text-bold {
+	font-weight: $font-weight-bold !important;
+}
+
+// decoration
+.u-text-underline {
+	text-decoration: underline !important;
+}
+
+.u-text-italic {
+	font-style: italic !important;
+}
+
+.u-text-none {
+	text-decoration: none !important;
+}
+
+.u-text-shadow {
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+// color
+
+.u-text-lightest {
+	color: get-color(text, lightest) !important;
+}
+
+.u-text-lighter {
+	color: get-color(text, lighter) !important;
+}
+
+.u-text-light {
+	color: get-color(text, light) !important;
+}
+
+.u-text-base {
+	color: get-color(text, base) !important;
+}
+
+.u-text-dark {
+	color: get-color(text, dark) !important;
+}
+
+.u-text-darker {
+	color: get-color(text, darker) !important;
+}
+
+.u-text-darkest {
+	color: get-color(text, darkest) !important;
+}
