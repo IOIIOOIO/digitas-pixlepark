@@ -1,33 +1,36 @@
 <template>
-	<div>
-		<c-search-input/>
-		<div class="o-card-grid">
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
-			<c-card name="Gabumon"
-					image="https://digimon.shadowsmith.com/img/agumon.jpg"
-					level="Rookie"/>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<c-search-input/>
+				<div class="o-card-grid">
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+					<c-card name="Gabumon"
+							image="https://digimon.shadowsmith.com/img/agumon.jpg"
+							level="Rookie"/>
+				</div>
+			</div>
 		</div>
-
 	</div>
 
 </template>
