@@ -3,22 +3,18 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 130px;
-	padding: 12px 20px;
-	font-size: rem(21px);
-	font-weight: $font-weight-medium;
-	line-height: 1.3;
-	color: #ffffff;
+	min-width: 160px;
+	padding-top: 0;
+	padding-right: $spacer-6;
+	padding-bottom: 0;
+	padding-left: $spacer-6;
+	font-size: rem(16px);
+	font-weight: $font-weight-bold;
+	line-height: 42px;
+	color: get-color(text, darkest);
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
 	cursor: pointer;
-	background-color: get-color(brand, gray);
-	border: 1px solid get-color(brand, gray);
-	&:hover,
-	&:focus {
-		color: get-color(brand, gray);
-		background-color: transparent;
-		border: 1px solid get-color(brand, gray);
-	}
+	background-color: get-color(bg, lightest);
+	border: none;
 }

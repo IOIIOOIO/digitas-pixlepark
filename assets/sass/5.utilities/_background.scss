@@ -1,3 +1,36 @@
 .u-bg-gray {
-  background-color: get-color(brand, gray);
+  background-color: get-color(brand, gray) !important;
 }
+
+.u-bg-level-training {
+  background-color: get-color(levels, training) !important;
+}
+
+.u-bg-level-rookie {
+  background-color: get-color(levels, rookie) !important;
+}
+
+.u-bg-level-champion {
+  background-color: get-color(levels, champion) !important;
+}
+
+.u-bg-level-ultimate {
+  background-color: get-color(levels, ultimate) !important;
+}
+
+.u-bg-level-fresh {
+  background-color: get-color(levels, fresh) !important;
+}
+
+.u-bg-level-mega {
+  background-color: get-color(levels, mega) !important;
+}
+
+.u-bg-level-armor {
+  background-color: get-color(levels, armor) !important;
+}
+
+.u-bg-gradient {
+  background:  linear-gradient(207.53deg, #FA00FF 0%, #5690FF 25.52%, #FA00FF 48.96%, #22B0FF 74.48%, #E600EB 100%);
+}
+
